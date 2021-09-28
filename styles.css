@@ -3,8 +3,12 @@ body {
     margin: 0;
 }
 
-.hero {
+.top-content {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .logo {
@@ -36,4 +40,46 @@ header {
 
 .header-links {
     display: flex;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: white;
+    border-style: solid;
+    font-size: 18px;
+    border-color: #3882f6;
+}
+
+.hero-image {
+    width: auto;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 24px;
+    padding: 24px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 16px;
 }
