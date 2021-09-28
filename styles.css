@@ -186,4 +186,10 @@ button {
 
 footer {
     background-color: #1f2937;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    text-align: center;
 }
