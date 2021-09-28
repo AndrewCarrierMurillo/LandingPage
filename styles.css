@@ -150,3 +150,36 @@ button {
     text-align: right;
     padding: 10px;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    width: 800px;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-around;
+    padding: 32px;
+    align-self: center;
+    margin: 32px;
+}
+
+.call-button button {
+    border-color: white;
+}
+
+.top {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.call-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
