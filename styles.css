@@ -98,3 +98,33 @@ button {
     height: 200px;
     object-fit: cover;
 }
+
+.photo-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px;
+}
+
+.row-images {
+    border-color: #3882f6;
+    border-radius: 25px;
+    border-width: thick;
+}
+
+.image-1 {
+    object-position: 50% 20%;
+}
+
+.photo-square {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.photo-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
