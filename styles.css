@@ -160,7 +160,7 @@ button {
     justify-content: space-around;
     padding: 32px;
     align-self: center;
-    margin: 32px;
+    margin: 48px 32px;
 }
 
 .call-button button {
