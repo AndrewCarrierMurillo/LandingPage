@@ -66,6 +66,11 @@ button {
     border-color: #3882f6;
 }
 
+button:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
 .hero-image {
     width: 500px;
     height: 300px;
